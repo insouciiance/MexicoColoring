@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #9dbeb9;
+    font-family: sans-serif;
+}
+
+html {
+    background-color: #194350;
+}
+
+header {
+    padding: 10px 10px 20px;
+}
+
+h1.main-heading {
+    margin: 0;
+    text-align: center;
+}
+
+div.buttons-wrapper {
+    padding: 20px 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+    div.buttons-wrapper div.control-buttons-container {
+    }
+
+    div.buttons-wrapper div.button-cta-container {
+    }
+
+button {
+    border: 1px solid #9dbeb9;
+    background-color: #194350;
+    font-size: 1.25rem;
+    padding: 5px;
+    border-radius: 2px;
+    transition: .1s;
+    user-select: none;
+    position: relative;
+}
+
+    button:hover {
+        background-color: #9dbeb9;
+        color: #194350;
+    }
+
+div.info-container {
+    padding: 20px 10px;
+    font-size: 1.25rem;
+}
+
+    div.info-container div.states-count-container {
+    }
+
+    div.info-container div.chromatic-number-container {
+    }
+
+span#states-count {
+}
+
+span#chromatical-number {
+}
+
+div.svg-container {
+    text-align: center;
+    overflow-x: auto;
+}
+
+    div.svg-container svg {
+        max-width: 800px;
+    }
+
+svg path {
+    fill: white;
+    stroke: #9dbeb9;
+}
+
+    svg path:hover {
+        fill: #ffeee4;
+    }
+
+    svg path.active {
+        fill: #ffccc4;
+    }
+
+span#state-span {
+    display: inline-block;
+    position: fixed;
+    color: lightcoral;
+    pointer-events: none;
+    user-select: none;
+    font-weight: bold;
+    width: 300px
+}

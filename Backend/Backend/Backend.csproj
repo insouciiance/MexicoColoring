@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GraphLibrary">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\GraphLibrary\v4.0_1.0.0.0__9b6c6fa30f75ee94\GraphLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
