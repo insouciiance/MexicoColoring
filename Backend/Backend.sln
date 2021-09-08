@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{B6C0CB55-6572-443A-9C20-106AF97140A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.csproj", "{B6C0CB55-6572-443A-9C20-106AF97140A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLibrary", "..\..\GraphColoring\GraphLibrary\GraphLibrary.csproj", "{292C134B-FFB6-4126-B591-524CBC4F3069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B6C0CB55-6572-443A-9C20-106AF97140A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C0CB55-6572-443A-9C20-106AF97140A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6C0CB55-6572-443A-9C20-106AF97140A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292C134B-FFB6-4126-B591-524CBC4F3069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292C134B-FFB6-4126-B591-524CBC4F3069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292C134B-FFB6-4126-B591-524CBC4F3069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292C134B-FFB6-4126-B591-524CBC4F3069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
