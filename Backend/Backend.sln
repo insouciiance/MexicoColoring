@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.csproj", "{B6C0CB55-6572-443A-9C20-106AF97140A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLibrary", "..\..\GraphColoring\GraphLibrary\GraphLibrary.csproj", "{292C134B-FFB6-4126-B591-524CBC4F3069}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLibrary", "GraphLibrary\GraphLibrary.csproj", "{292C134B-FFB6-4126-B591-524CBC4F3069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

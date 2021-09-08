@@ -8,11 +8,5 @@
     <ProjectReference Include="..\GraphLibrary\GraphLibrary.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="GraphLibrary">
-      <HintPath>..\GraphLibrary\bin\Debug\GraphLibrary.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 
 </Project>
